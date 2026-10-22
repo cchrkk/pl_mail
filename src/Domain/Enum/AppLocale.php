@@ -15,6 +15,7 @@ enum AppLocale: string
     case English = 'en';
     case German = 'de';
     case French = 'fr';
+    case Italian = 'it';
     case Pirate = 'en_PI';
 
     /**
@@ -26,6 +27,7 @@ enum AppLocale: string
             self::English => 'English',
             self::German => 'Deutsch',
             self::French => 'Français',
+            self::Italian => 'Italiano',
             self::Pirate => 'Pirate English',
         };
     }
@@ -39,6 +41,7 @@ enum AppLocale: string
             self::English => '🇬🇧',
             self::German => '🇩🇪',
             self::French => '🇫🇷',
+            self::Italian => '🇮🇹',
             self::Pirate => '🏴‍☠️',
         };
     }
